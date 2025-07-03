@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.fullNameOverride }}
+  namespace: {{ .Release.Namespace }}
+data:
+  SYSTEM_UPGRADE_CONTROLLER_DEBUG: {{ .Values.config.controller.debug | quote }}
+  SYSTEM_UPGRADE_CONTROLLER_THREADS: {{ .Values.config.controller.threads | quote }}
+  SYSTEM_UPGRADE_CONTROLLER_LEADER_ELECT: {{ .Values.config.controller.leaderElect | quote }}
+  SYSTEM_UPGRADE_JOB_ACTIVE_DEADLINE_SECONDS: {{ .Values.config.job.activeDeadlineSeconds | quote }}
+  SYSTEM_UPGRADE_JOB_BACKOFF_LIMIT: {{ .Values.config.job.backoffLimit | quote }}
+  SYSTEM_UPGRADE_JOB_IMAGE_PULL_POLICY: {{ .Values.config.job.kubectlImage.pullPolicy | quote }}
+  SYSTEM_UPGRADE_JOB_KUBECTL_IMAGE: "{{ .Values.config.job.kubectlImage.registry }}/{{ .Values.config.job.kubectlImage.repository }}:{{ .Values.config.job.kubectlImage.tag }}"
+  SYSTEM_UPGRADE_JOB_PRIVILEGED: {{ .Values.config.job.privileged | quote }}
+  SYSTEM_UPGRADE_JOB_TTL_SECONDS_AFTER_FINISH: {{ .Values.config.job.ttlSecondsAfterFinish | quote }}
+  SYSTEM_UPGRADE_PLAN_POLLING_INTERVAL: {{ .Values.config.plan.pollingInterval | quote }}

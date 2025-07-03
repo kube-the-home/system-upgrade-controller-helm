@@ -1,0 +1,39 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: {{ .Values.fullNameOverride }}-drainer
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: {{ .Values.fullNameOverride }}-drainer
+subjects:
+  - kind: ServiceAccount
+    namespace: {{ .Release.Namespace }}
+    name: {{ .Values.fullNameOverride }}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: {{ .Values.fullNameOverride }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: {{ .Values.fullNameOverride }}
+subjects:
+  - kind: ServiceAccount
+    namespace: {{ .Release.Namespace }}
+    name: {{ .Values.fullNameOverride }}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+    name: {{ .Values.fullNameOverride }}
+    namespace: {{ .Release.Namespace }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: {{ .Values.fullNameOverride }}
+subjects:
+- kind: ServiceAccount
+  name: {{ .Values.fullNameOverride }}
