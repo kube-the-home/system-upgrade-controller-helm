@@ -3,7 +3,7 @@ fullNameOverride: "system-upgrade"
 image:
   registry: docker.io
   repository: rancher/system-upgrade-controller
-  tag: v0.14.2 # renovate docker docker.io/rancher/system-upgrade-controller
+  tag: v0.15.3 # renovate docker docker.io/rancher/system-upgrade-controller
   pullPolicy: "IfNotPresent"
 
 
