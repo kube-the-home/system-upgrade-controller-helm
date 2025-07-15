@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.0...1.3.1) (2025-07-15)
+
+
+### Bug Fixes
+
+* extending the readme and adapting the chart.yaml ([ecbb98a](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/ecbb98ad398d09ab9f329226c7b59f2d86f734dc))
+
 # [1.3.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.2.0...1.3.0) (2025-07-13)
 
 
