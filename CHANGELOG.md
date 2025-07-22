@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.2...1.3.3) (2025-07-22)
+
+
+### Bug Fixes
+
+* use new github token reference ([251aca8](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/251aca8ed8ff548be31831ab36d5a4975372a25b))
+
 ## [1.3.2](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.1...1.3.2) (2025-07-22)
 
 
