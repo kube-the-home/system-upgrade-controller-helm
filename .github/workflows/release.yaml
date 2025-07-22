@@ -57,6 +57,6 @@ jobs:
           if git diff --cached --quiet; then
               echo "No changes to commit."
           else
-              git commit -m "chore: update Chart.yaml and documentation for version $VERSION"
+              git commit -m "chore: update Chart.yaml and documentation for version $VERSION [skip ci]"
               git push origin main
           fi
