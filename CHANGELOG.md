@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.3...1.3.4) (2025-07-22)
+
+
+### Bug Fixes
+
+* skip cicd run on documentation commit ([9659477](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/965947701f4c7493976dced6df9422cb57165a56))
+
 ## [1.3.3](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.2...1.3.3) (2025-07-22)
 
 
