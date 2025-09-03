@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.6...1.3.7) (2025-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update docker.io/rancher/system-upgrade-controller docker tag to v0.16.3 ([d20552f](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/d20552f6f16ceb52963e119fb236288448a1cf04))
+
 ## [1.3.6](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.5...1.3.6) (2025-08-18)
 
 
