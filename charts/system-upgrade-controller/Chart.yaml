@@ -2,7 +2,7 @@ apiVersion: v2
 name: system-upgrade-controller
 description: A Helm chart to deploy the rancher system-upgrade-controller.
 type: application
-version: 1.3.7
+version: 1.4.0
 sources: 
   - https://github.com/kube-the-home/system-upgrade-controller-helm
   - https://github.com/rancher/system-upgrade-controller
