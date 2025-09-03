@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.7...1.4.0) (2025-09-03)
+
+
+### Features
+
+* **deps:** update docker.io/rancher/kubectl docker tag to v1.34.0 ([2792414](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/27924144db0b3729559497cdaf4bf29dcc89a3c4))
+
 ## [1.3.7](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.3.6...1.3.7) (2025-09-03)
 
 
