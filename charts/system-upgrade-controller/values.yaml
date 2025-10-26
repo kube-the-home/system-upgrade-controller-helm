@@ -6,8 +6,38 @@ image:
   tag: v0.17.0 # renovate docker docker.io/rancher/system-upgrade-controller
   pullPolicy: "IfNotPresent"
 
+# -- Securitycontext for the container
+containerSecurityContext:
+  runAsNonRoot: true
+  allowPrivilegeEscalation: false
+  runAsUser: 65534
+  runAsGroup: 65534
+  seccompProfile:
+    type: RuntimeDefault
+  capabilities:
+    drop:
+      - ALL
 
+# -- PodSecurityContext for the pod
+podSecurityContext: {}
 
+tolerations:
+  - key: "CriticalAddonsOnly"
+    operator: "Exists"
+  - key: "node-role.kubernetes.io/master"
+    operator: "Exists"
+    effect: "NoSchedule"
+  - key: "node-role.kubernetes.io/controlplane"
+    operator: "Exists"
+    effect: "NoSchedule"
+  - key: "node-role.kubernetes.io/control-plane"
+    operator: "Exists"
+    effect: "NoSchedule"
+  - key: "node-role.kubernetes.io/etcd"
+    operator: "Exists"
+    effect: "NoExecute"
+
+# -- configuration for the system-upgrade-controller
 config:
   controller:
     debug: false
