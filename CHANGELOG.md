@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.5.0...1.6.0) (2025-10-26)
+
+
+### Features
+
+* allow setting the securitycontexts from values ([08401ef](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/08401ef7405d47d0fd41c90aac5c43f3dc9bfbe1))
+
 # [1.5.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.4.1...1.5.0) (2025-10-15)
 
 
