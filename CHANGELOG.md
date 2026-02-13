@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.8.0...1.8.1) (2026-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update webiny/action-conventional-commits action to v1.3.1 ([94b5440](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/94b54405642e83194fcc90b0ad4993633aa85feb))
+
 # [1.8.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.7.1...1.8.0) (2025-12-20)
 
 
