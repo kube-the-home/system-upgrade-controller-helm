@@ -49,7 +49,7 @@ config:
     kubectlImage:
       registry: docker.io
       repository: rancher/kubectl
-      tag: v1.35.0 # renovate docker docker.io/rancher/kubectl
+      tag: v1.35.2 # renovate docker docker.io/rancher/kubectl
       pullPolicy: "Always"
     privileged: true
     ttlSecondsAfterFinish: 900
