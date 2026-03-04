@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   system-upgrade-controller:
   - apiVersion: v2
+    created: "2026-03-04T13:33:15.788854898Z"
+    description: A Helm chart to deploy the rancher system-upgrade-controller.
+    digest: 6705fe23a820366bbf62fc4500eb45fdd0e94db6ca0269673252bf58d85acc11
+    name: system-upgrade-controller
+    sources:
+    - https://github.com/kube-the-home/system-upgrade-controller-helm
+    - https://github.com/rancher/system-upgrade-controller
+    type: application
+    urls:
+    - https://github.com/kube-the-home/system-upgrade-controller-helm/releases/download/system-upgrade-controller-1.9.0/system-upgrade-controller-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v2
     created: "2026-02-13T07:40:34.538774256Z"
     description: A Helm chart to deploy the rancher system-upgrade-controller.
     digest: f527563382e40906c3821e6386a1068ec988909522e07b50bc176ef9565328fe
@@ -226,4 +238,4 @@ entries:
     urls:
     - https://github.com/kube-the-home/system-upgrade-controller-helm/releases/download/system-upgrade-controller-1.0.0/system-upgrade-controller-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-13T07:40:34.538897767Z"
+generated: "2026-03-04T13:33:15.789012272Z"
