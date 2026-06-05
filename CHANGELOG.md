@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.10.0...1.10.1) (2026-06-05)
+
+
+### Bug Fixes
+
+* migrate to new reusable workflows ([b7f12f2](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/b7f12f2fea33db8f02fc02e35a9d707307a13b01))
+
 # [1.10.0](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.9.2...1.10.0) (2026-04-25)
 
 
