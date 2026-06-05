@@ -1,3 +1,11 @@
+## [1.10.2](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.10.1...1.10.2) (2026-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v6.0.3 ([ca0fbe9](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/ca0fbe9d2647871891fb0ffcad961df101d36d0d))
+* **deps:** update kube-the-home/github-actions action to v1.0.1 ([9588481](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/958848192cc90335e554770b7292c4babdeb7d82))
+
 ## [1.10.1](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.10.0...1.10.1) (2026-06-05)
 
 
