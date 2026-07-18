@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.11.1...1.11.2) (2026-07-18)
+
+
+### Bug Fixes
+
+* downgrade to v0.19.2 as v0.20.0 has been deleted ([2f8a9a8](https://github.com/kube-the-home/system-upgrade-controller-helm/commit/2f8a9a83b9427cdde2c6ab989f5c835d94256c95))
+
 ## [1.11.1](https://github.com/kube-the-home/system-upgrade-controller-helm/compare/1.11.0...1.11.1) (2026-06-30)
 
 
